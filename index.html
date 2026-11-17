@@ -664,6 +664,44 @@ section[id]{scroll-margin-top:80px}
 }
 @media (prefers-reduced-motion:reduce){.btn,.send,.wa-btn,.circ-btn,.mm-cta,.btn::before,.btn .arr{animation:none!important}}
 
+
+/* ===== COMPACT ===== */
+.sec{padding:76px 0}
+#branding,#pub,#tarifs,#formation,#faq,#methode{padding-top:10px!important}
+#sites{padding-bottom:30px}
+.br-box{padding:44px 30px 30px!important}
+.br-kicker{display:block;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--green)}
+.br-title{font-size:clamp(46px,6vw,82px)!important;font-weight:700!important;letter-spacing:-.05em;line-height:.95;margin-top:8px;background:linear-gradient(180deg,#1c1c1b 40%,#2f7a12);-webkit-background-clip:text;background-clip:text;color:transparent}
+.br-sub{font-size:17px!important;margin-top:10px!important;color:#5e6a4c}
+.bgrid2{grid-template-columns:repeat(6,1fr)!important;gap:10px!important;margin-top:26px!important}
+.btile2{padding:6px!important;border-radius:14px!important}
+.btile2 .im{border-radius:10px!important}
+.btile2 figcaption{display:none}
+.btile2 .star{width:18px!important;height:18px!important;font-size:9px!important;right:10px!important;top:10px!important}
+.ads-box{padding:56px 44px 44px!important}
+.ads-box h2{font-size:clamp(40px,5.4vw,72px)!important;line-height:1}
+.ads-grid{margin-top:30px!important}
+.fbox{padding:46px 40px 30px!important}
+.fb-in{gap:34px!important}
+.fbox h2{font-size:clamp(32px,3.8vw,48px)!important}
+.fb-vid{max-width:230px!important}
+.avis{margin-top:34px!important;padding-top:24px!important}
+.svc-box{padding-top:70px;padding-bottom:44px}
+.subhead,.fmt-head{margin-top:60px!important}
+.cases{margin-top:44px!important;gap:44px!important}
+.vgrid{margin-top:22px!important}
+.cta-band{margin-top:40px!important}
+.contact{padding:100px 20px 90px}
+@media (max-width:980px){
+  .sec{padding:56px 0}
+  .bgrid2{grid-template-columns:repeat(3,1fr)!important;gap:7px!important}
+  .br-box{padding:34px 12px 16px!important}
+  .ads-box{padding:42px 18px 32px!important}
+  .fbox{padding:36px 16px 22px!important}
+  .fb-vid{max-width:200px!important}
+  .hero{min-height:auto;padding-bottom:30px}
+}
+
 /* RESPONSIVE */
 @media (max-width:980px){
   .nav-links,.nav-cta{display:none}.burger{display:grid;place-items:center}
@@ -690,6 +728,7 @@ section[id]{scroll-margin-top:80px}
   .qa .ans p{padding-right:10px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,.words .w{opacity:1;transform:none;filter:none}}
+@media (max-width:560px){.sec{padding:50px 0}}
 </style>
 </head>
 <body>
@@ -817,11 +856,10 @@ section[id]{scroll-margin-top:80px}
     <div class="svc-box br-box rv">
       <div class="dots" style="opacity:.6"></div>
       <div class="sec-head" style="position:relative">
-        <span class="eyebrow" style="justify-content:center">Projet réalisé · Branding</span>
-        <h2 class="words" data-words style="margin-top:18px">EtuHelp, <span class="dim-g">une identité qui rassemble.</span></h2>
-        <p style="color:#5e6a4c">Le logo, la charte et tous les supports de la plateforme solidaire étudiante EtuHelp. Touchez un visuel pour le voir en grand.</p>
+        <span class="br-kicker">Projet de branding réalisé pour</span>
+        <h2 class="br-title">EtuHelp</h2>
+        <p class="br-sub">EtuHelp, une identité qui rassemble.</p>
       </div>
-      <div class="kw"><span class="k1">Logo &amp; monogramme</span><span class="k2">Charte graphique</span><span class="k3">Papeterie</span><span class="k2">Textile &amp; goodies</span><span class="k1">Signalétique</span></div>
       <div class="bgrid2" id="bGrid"></div>
     </div>
   </div>
